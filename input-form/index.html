@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/logo.jpg" class="webpage-logo" />
+        <h1>Workshop</h1>
+        <button id="button-home">Home</button>
+      </header>
+      <div class="form">
+        <h2>Add the item you want to sell (Required)</h2>
+        <input
+          id="title"
+          type="text"
+          placeholder="Enter title of the item"
+          maxlength="100"
+        />
+        <input
+          id="description"
+          type="text"
+          placeholder="Item description"
+          maxlength="300"
+        />
+        <input
+          id="price"
+          type="text"
+          placeholder="Enter the price of the item"
+          maxlength="24"
+        />
+        <input
+          id="location"
+          type="text"
+          placeholder="Enter location of the item"
+          maxlength="20"
+        />
+        <input
+          id="image-url"
+          type="text"
+          placeholder="Enter item image adress"
+        />
+        <fieldset>
+          <legend><span>Add detailed info (Optional)</span></legend>
+        </fieldset>
+        <input
+          id="condition"
+          type="text"
+          placeholder="Enter condition of the item"
+          maxlength="20"
+        />
+        <input
+          id="years-used"
+          type="text"
+          placeholder="Years used"
+          maxlength="6"
+        />
+        <input
+          id="original-packaging"
+          type="text"
+          placeholder="Contains orig. packaging"
+          maxlength="40"
+        />
+        <input
+          id="additional-info"
+          type="text"
+          placeholder="Additional information"
+          maxlength="500"
+        />
+        <button id="button-add-item">Add item to catalog</button>
+        <h3 id="warning-message"></h3>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
