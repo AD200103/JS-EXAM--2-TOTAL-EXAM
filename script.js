@@ -1,5 +1,5 @@
 import { gettingCards } from "./utils/fetch.js";
-import { createCards } from "./building/building.js";
+import { createCards } from "./utils/building.js";
 const itemCardWrapper = document.getElementById("item-card-wrapper");
 const buttonForm = document.getElementById("add-item-btn");
 

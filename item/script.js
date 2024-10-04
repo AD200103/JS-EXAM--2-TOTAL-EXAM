@@ -1,5 +1,5 @@
 import { getItems, deleteItems } from "../utils/fetch.js";
-import { createItem } from "../building/building.js";
+import { createItem } from "../utils/building.js";
 const url = new URL(window.location.href);
 const id = url.searchParams.get("id");
 const buttonDelete = document.getElementById("delete-button");
